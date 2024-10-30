@@ -11,7 +11,13 @@
 // I AM NOT DONE
 
 // Put your function here!
-// fn calculate_apple_price {
+fn calculate_apple_price(aps: i32) -> i32 {
+    if aps > 40 {
+        aps
+    } else {
+        aps * 2
+    }
+}
 
 // Don't modify this function!
 #[test]
