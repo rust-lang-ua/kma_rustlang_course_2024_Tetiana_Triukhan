@@ -7,6 +7,12 @@
 
 // I AM NOT DONE
 
+macro_rules! my_macro {
+    ($name:expr) => {
+        format!("Hello {}", $name)
+    };
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
